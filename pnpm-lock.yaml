@@ -5,6 +5,7 @@ specifiers:
   '@nestjs/core': 9.3.9
   '@nestjs/platform-express': 9.3.9
   '@types/node': 18.14.2
+  prettier: 2.8.4
   reflect-metadata: 0.1.13
   rxjs: 7.8.0
   ts-node: 10.9.1
@@ -19,6 +20,7 @@ dependencies:
 
 devDependencies:
   '@types/node': 18.14.2
+  prettier: 2.8.4
   ts-node: 10.9.1_ellgaeuoqnti3hful2ny2iugba
   typescript: 4.9.5
 
@@ -597,6 +599,12 @@ packages:
   /path-to-regexp/3.2.0:
     resolution: {integrity: sha512-jczvQbCUS7XmS7o+y1aEO9OBVFeZBQ1MDSEqmO7xSoPgOPoowY/SxLpZ6Vh97/8qHZOteiCKb7gkG9gA2ZUxJA==}
     dev: false
+
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
 
   /process-nextick-args/2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
