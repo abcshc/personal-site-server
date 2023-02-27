@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "experimentalDecorators": true,
+    "target": "es2022",
+    "moduleResolution": "Node",
+    "outDir": "dist"
+  }
+}
