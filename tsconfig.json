@@ -4,6 +4,7 @@
     "experimentalDecorators": true,
     "target": "es2022",
     "moduleResolution": "Node",
-    "outDir": "dist"
+    "outDir": "dist",
+    "emitDecoratorMetadata": true
   }
 }
