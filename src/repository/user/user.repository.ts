@@ -11,7 +11,7 @@ export class UserRepository {
       id,
       email: signUpItem.email,
       password: signUpItem.password,
-      createdAt: new Date(),
+      createdAt: new Date()
     };
     this.users.set(id, user);
 
@@ -24,5 +24,14 @@ export class UserRepository {
 
   findById(id: number): UserEntity {
     return this.users.get(id);
+  }
+
+  findByEmail(email: string): UserEntity {
+    for (const user of this.users.values()) {
+      if (user.email === email) {
+        return user;
+      }
+    }
+    return null;
   }
 }
